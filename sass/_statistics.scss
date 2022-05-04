@@ -1,0 +1,36 @@
+.statistics{
+  &__numbers{
+    text-align: center;
+    display: block;
+    margin-left: 93px;
+  }
+  &__card{
+    background: rgba(#fff , 0.9);
+    width: fit-content;
+    height: 570px;
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    left: 30%;
+    right: 5%;
+
+  }
+  &__image{
+    flex-grow: 1;
+    flex-basis: 556px;
+    position: relative;
+  }
+  &__img{
+    max-width: 556px;
+    width: 100%;
+    height: auto;
+  }
+  &__info{
+    padding:54px 20px 0 0;
+
+  }
+}
+.numbers{
+  margin-top: 50px;
+  margin-bottom: 12px;
+}

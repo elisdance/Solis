@@ -1,0 +1,93 @@
+.features{
+
+  &__image {
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 540px;
+  }
+
+  &__grow {
+    max-width: 540px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__form{
+    background: rgba(#161926,0.9);
+    width: 250px;
+    height: 411px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-top: 10%;
+    padding: 19px  16px;
+    position: absolute;
+    float: right;
+
+  }
+  &__card{
+    background: rgba(#fff , 0.9);
+    width: fit-content;
+    position: absolute;
+    max-height: 570px;
+    left: 40%;
+    right: 5%;
+    padding-top: 5%;
+    top: 20px;
+    
+
+  }
+  &__info{
+    display: flex;
+    position: absolute;
+    min-width: 870px;
+  }
+
+}
+.inline{
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  gap:20px;
+}
+.text__inline{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 4%;
+  
+  &-exp{
+  display: flex;
+  margin-right: 4%;
+  justify-content: space-between;  
+  margin-top: 90px;
+  display: flex;
+  }
+}
+.ft{
+
+  &__cards{
+    display: flex;
+    justify-content: space-between;
+    gap:90px;
+    margin-bottom: 66px;
+    margin-left: 64px;
+    margin-right: 190px;
+
+  }
+  &__border-card {
+    display: flex;
+    border: 1px solid #515773;
+    width: 308px;
+    height: 94px;
+    position:absolute;
+    margin-left: -190px;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+}
+.form__radios{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

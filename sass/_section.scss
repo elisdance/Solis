@@ -1,0 +1,72 @@
+.hero{
+  &__content{
+    max-width: 650px;
+    padding-top:158px;
+  }
+}
+.statistics{
+  margin-top: 163px;
+
+  &__content{
+    display: flex;
+    align-items: center;
+
+  }
+}
+.cards{
+  margin-top: 140px;
+
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12%; 
+      padding-left: 3%;
+    }
+}
+.quote{
+  min-height: 400px;
+  padding-top: 140px;
+}
+.ipad {
+  margin-top: 160px;
+
+  &__container{
+    display: flex;
+    justify-content: center;
+  }
+}
+.features{
+  margin-top: 163px;
+
+  &__content{
+    display: flex;
+    position: absolute;
+    
+  }
+}
+.ft{
+  &__container{
+    max-width: 762px;
+    max-height: 452px;
+
+  }
+}
+.carousel{
+  padding-top: 650px;
+  &__withtext{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.footer{
+  &__form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 174px;
+    padding-bottom: 132px;
+  }
+}
+
+
