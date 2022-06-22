@@ -1,0 +1,38 @@
+.form {
+  max-width: 770px;
+  height: 450px;
+  position: relative;
+  background-color: #ffff;
+  margin-left: auto;
+  margin-right:auto ;
+  top: 410px;
+
+  &__inform {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__pd {
+    padding-top: 1px;
+  }
+
+  &__icon {
+    padding-top: 6px;
+  }
+
+  &__details {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__line {
+    border: 1px solid;
+    width: 100px;
+    margin-top: 60px;
+    border: 1px solid #2C4058;
+  }
+
+  &__aboutUs {
+    padding-left: 60px;
+  }
+}

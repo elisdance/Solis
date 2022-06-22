@@ -1,0 +1,15 @@
+.card{
+  width: 370px;
+  min-height: 515px;
+  background-color: white;
+  margin-left: 30px;
+
+  &__info{
+    padding: 0 20px 0 20px;
+  }
+}
+.author{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}

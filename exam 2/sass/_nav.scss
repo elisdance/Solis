@@ -1,0 +1,43 @@
+.menu{
+  &__list{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: white;
+  }
+
+  &__item{
+    list-style:circle;
+  }
+
+  &__link{
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: flex;
+    bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    position: relative;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+  
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.menu__item:active{
+  list-style:disc;
+}
+

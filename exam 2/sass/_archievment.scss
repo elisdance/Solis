@@ -1,0 +1,44 @@
+.achievmentTop {
+  position: relative;
+  left: 10%;
+  top: 135px;
+  max-width: 1170px;
+
+  &__image {
+    max-width: 630px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__first {
+    display: flex;
+    gap: 70px;
+
+    &__building {
+      flex-grow: 1;
+    }
+  }
+}
+
+.achievmentBottom {
+  position: relative;
+  left: 10%;
+  margin-top: 140px;
+  max-width: 1200px;
+
+  &__image {
+    max-width: 630px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__second {
+    display: flex;
+    gap: 70px;
+    padding-top: 210px; 
+
+    &__building {
+      flex-grow: 1;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.heading{
+  &--h1{
+    font-size: 80px;
+    line-height: 98px;  
+    color: #FFFFFF;  
+  }
+  &--h2{
+    font-size: 44px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+
+  }
+  &--h4{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+  }
+}
+
+.text{
+  color: $blue-color;
+  &--heading{
+    font-size: 22px;
+    line-height: 27px;
+    padding-bottom: 15px;
+  }
+  &--simple{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.author{
+  font-weight: 400;
+  &--name{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &--date{
+    font-size: 14px;
+    line-height: 17px;
+    color: $light-blue-color;
+  }
+}
+
+.title {
+  font-size: 44px;
+  line-height: 54px;
+  color: #2C4058;
+}
+
+.address {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.txt {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color:$blue-color;
+  padding-top: 19px;
+}
+
+.name {
+  font-size: 44px;
+  line-height: 54px;
+  color: #2C4058;
+}
+
+.expression {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C4058;
+  padding-top: 90px;
+}
+.information {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom:20px ;
+}
+
+.madeBy {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
